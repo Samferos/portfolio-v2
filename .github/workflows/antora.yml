@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     environment:
       name: "pages"
       url: ${{ steps.deployment.outputs.page_url }}
