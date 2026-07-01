@@ -7,8 +7,7 @@ software engineering, low-level stuff, systems networking & management.
 not only that, i like drawing, taking pictures, playing music among many other
 things.
 
-i'm also trilingual, i speak english, french and portuguese and about every page
-on my portfolio is translated in each of those languages.
+i'm also trilingual, i speak english, french and portuguese !
 
 And if somehow, that makes you want to know xref:about-me.adoc[more about me...]
 
