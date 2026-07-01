@@ -1,0 +1,17 @@
+= Welcome to my portfolio !
+:description: the portfolio of samuel :)
+
+i'm a computer science student interested in many fields of IT, but mainly,
+software engineering, low-level stuff, systems networking & management.
+
+not only that, i like drawing, taking pictures, playing music among many other
+things.
+
+i'm also trilingual, i speak english, french and portuguese and about every page
+on my portfolio is translated in each of those languages.
+
+And if somehow, that makes you want to know xref:about-me.adoc[more about me...]
+
+// TODO: replace these with UI nav
+* xref:projects/index.adoc[Projects]
+* xref:posts/index.adoc[Posts]

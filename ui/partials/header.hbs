@@ -1,0 +1,54 @@
+<header>
+  <a class="skip" href="#main-content">Skip to main content</a>
+  <div class="surface-container spaced bar">
+    <div class="bar">
+      <a class="logo" title="Homepage" href={{ siteRootPath }}>
+        <img width="64" height="64" alt="" src={{{ uiRootPath }}}/img/profile_picture.png>
+      </a>
+      <div class="bubble">
+        <span class="font-sans">
+          hi,<br/>
+          i'm samuel
+        </span>
+      </div>
+    </div>
+    <div>
+      <button title="Color scheme" class="toggle-button" popovertarget="color-scheme-selector">
+        {{{ icon "color_scheme" "32px" }}}
+      </button>
+      <fieldset id="color-scheme-selector" name="Color scheme" popover>
+        <p>Color scheme</p>
+        <input type="radio" id="scheme-default" name="color-scheme" value="default" checked>
+        <label class="bar" for="scheme-default">
+          {{{ icon "auto_light_mode" "16px" }}}
+          Follow system
+        </label>
+        <input type="radio" id="scheme-light" name="color-scheme" value="light">
+        <label class="bar" for="scheme-light">
+          {{{ icon "light_mode" "16px" }}}
+          Light
+        </label>
+        <input type="radio" id="scheme-dark" name="color-scheme" value="dark">
+        <label class="bar" for="scheme-dark">
+          {{{ icon "dark_mode" "16px" }}}
+          Dark
+        </label>
+      </fieldset>
+      <button title="Language" class="toggle-button" popovertarget="language-selector">
+        {{{ icon "language" "32px" }}}
+      </button>
+      <fieldset id="language-selector" name="Language" popover>
+        <p>Lanugage</p>
+        <input type="radio" id="en" name="language" value="en" checked>
+        <label for="en">English</label>
+        <p>More available soon ?...</p>
+        <!--
+        <input type="radio" id="fr" name="language" value="fr">
+        <label for="fr">Français</label>
+        <input type="radio" id="pt" name="language" value="pt">
+        <label for="pt">Português</label>
+        -->
+      </fieldset>
+    </div>
+  </div>
+</header>

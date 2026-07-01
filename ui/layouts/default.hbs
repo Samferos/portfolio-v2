@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{> head}}
+  </head>
+  <body>
+    {{> header}}
+    <main id="main-content">
+      {{#with page.parent}} 
+        <a class="icon-button" href="{{ this.url }}">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px"
+            viewBox="0 -960 960 960" width="24px">
+            <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
+          </svg>
+        </a>
+      {{/with}} 
+      {{#with page.title}}
+        <h1>{{{ this }}}</h1>
+      {{/with}}
+      {{{ page.contents }}}
+    </main>
+    <footer>
+      <hr />
+      {{> footer}}
+    </footer>
+  </body>
+</html>

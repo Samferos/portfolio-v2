@@ -1,0 +1,89 @@
+= Anby's Movies
+Samuel AMARAL ANTUNES <samuelamaralantunes@gmail.com>
+27-06-2025
+:description: A Material 3 Android app using an external API.
+:imagessubdir: projects/anbys-movies
+
+*Anby's Movies* is an academic project in which the goal was to create an
+Android mobile application that used an external API.
+
+_Why "Anby's Movies"?_
+
+Well, the reason is pretty simple. I tend to name my projects and other work
+after fictional characters I know. The character who gave this project its name
+is Anby from _Zenless Zone Zero_.
+
+.Anby Demara
+image::{imagessubdir}/anby.png[]
+
+But why Anby from ZZZ? Because Anby loves movies. In short, the external API we
+were required to use was https://themoviedb.org[TheMovieDB].
+
+If you're familiar with https://www.imdb.com/[IMDb], then you already have a
+general idea of what the service can do. https://themoviedb.org[TheMovieDB]
+allows (as the name implies) to access to a database of movie metadata.
+
+Actually... It contains more than _just_ movies. In fact it also contains TV
+Shows and Movie Collections. But we decided to focus only on the movies (as the
+assignment also only mentionned movies.)
+
+TMDB includes information about movies such as their titles, descriptions, release
+dates, available languages, actors, reviews, ratings, and more.
+
+.The homepage of TheMovieDB’s website
+image::{imagessubdir}/tmdb.png[]
+
+Ultimately, the app was simply meant to help users discover new movies.
+
+== Project Overview
+
+This was a group project, and there were three of us working on it. For context,
+we had quite a few assignments to turn in around that time, and this app had the
+latest deadline of them all. So my friend Lohan took it upon himself to create a
+fully functional prototype and meeting all the project requirements in just two
+or three days, so that we could focus on the more urgent projects, and improve
+on a already solid foundation afterwards.
+
+I focused on the UI, Théo worked on a favorites feature, and Lohan built some
+views as well, fixed a few things in our Repository, and helped with certain
+parts of the favorites interface.
+
+Unfortunately, since my school had taught us Android UI with the Views API, we
+were restricted to use Views instead of Compose (which is now the recommended
+API for newer applications.)
+
+For this application, I decided to use components from
+https://m3.material.io[Material 3 Design], and to support Material You.
+
+This is an open design system created by designers at Google, and it's the
+visual style used throughout the Android interface. That means the app
+integrates better with the platform. (and personally, I really like
+the look of Material 3. it's simple and pretty.)
+
+== Some funny things that happened
+
+I said just before that TheMovieDB had more than _just movies_.
+
+Well, turns out, the search API does in fact not return _just movies_. Funnily
+enough, we found out when we tried to search for The Minecraft Movie (which was
+recently released at the time), the search returned an item with the name "The
+Minecraft Movie Collection". And when you tried to click on it, it crashed the
+application, because a Movie Collection can't be deserialized into the Movie
+class (it doesn't have the attributes a movie has).
+
+== Conclusion
+
+In the end, we had a pretty good app, and I had much fun interfacing with
+Android's APIs, even if i had to use Views instead of Compose (I ended up using
+Compose in another project).
+
+If you want to check out the source code for this project,
+https://github.com/Samferos/anbys-movies[here] it is on my GitHub. (It has a few
+more commits than the repo on our school's GitLab instance cuz i wanted to test
+CI for test apk builds but our school's CI Runner couldn't fetch the project's
+dependencies. and if you check the commit history you'll notice it was my first
+time working with Github Actions.)
+
+.burgir
+image::{imagessubdir}/anby.gif[]
+

@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('../font/Rubik/Rubik-Regular.woff2') format('woff2'),
+  url('../font/Rubik/Rubik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../font/Rubik/Rubik-Italic.woff2') format('woff2'),
+  url('../font/Rubik/Rubik-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../font/Fraunces/Fraunces-Regular.woff2') format('woff2'),
+  url('../font/Fraunces/Fraunces-Regular.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../font/Fraunces/Fraunces-Italic.woff2') format('woff2'),
+  url('../font/Fraunces/Fraunces-Italic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '0xProto';
+  src: url('../font/0xProto/0xProto-Bold.woff2') format('woff2'),
+  url('../font/0xProto/0xProto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '0xProto';
+  src: url('../font/0xProto/0xProto-Italic.woff2') format('woff2'),
+  url('../font/0xProto/0xProto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '0xProto';
+  src: url('../font/0xProto/0xProto-Regular.woff2') format('woff2'),
+  url('../font/0xProto/0xProto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

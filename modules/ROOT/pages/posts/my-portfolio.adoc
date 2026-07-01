@@ -1,0 +1,30 @@
+= My Portfolio
+Samuel AMARAL ANTUNES <samuelamaralantunes@gmail.com>
+
+This is the third time I am remaking my portfolio. _I think._
+
+Already quite a while ago, I had made my first portfolio with
+https://astro.build/[Astro]. I used simple Astro templates, TailwindCSS, and
+Markdown content.
+
+Then I discovered Hugo, and for some reason I though it would be nice to switch
+to it.
+
+So I made my portfolio a 2nd time. I built the Hugo Theme myself, and it
+was [.line-through]#very# annoying to deal with go templating.
+
+Then I discovered https://asciidoc.org/[Asciidoc].
+
+I really like Asciidoc. For some reason it feels to me like a better Markdown,
+even though I still think everyone is going to keep using Markdown.
+
+And to be fair, Asciidoc _is_ more oriented towards (technical ?) documentation,
+while Markdown seems just to be very generic. It has tons of features compared
+to Markdown that might not be necessary in most cases (on the other hand,
+Markdown is a HTML superset sooooo).
+
+Hugo supports Asciidoc, but it still requires to have YAML frontmatter delimited
+by `+++`. The thing I disliked about it is that, well, YAML frontmatter is
+technically non-standard, for Markdown and Asciidoc (though Asciidoc has
+mechanisms in place to support it) -- And Asciidoc *already has* a feature that
+allows to add attributes to the document, without needing a YAML frontmatter.

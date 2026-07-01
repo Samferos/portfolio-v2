@@ -1,0 +1,12 @@
+* xref:index.adoc[]
+** xref:projects/index.adoc[]
++
+--
+include::partial$projects.adoc[]
+--
+** xref:posts/index.adoc[]
++
+--
+include::partial$posts.adoc[]
+--
+** xref:about-me.adoc[]

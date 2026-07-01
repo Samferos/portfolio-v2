@@ -1,0 +1,5 @@
+= Posts
+
+this is where i yap about stuff
+
+include::partial$posts.adoc[]

@@ -1,0 +1,11 @@
+site:
+  title: samuel's portfolio
+  start_page: portfolio::index.adoc
+content:
+  sources:
+  - url: .
+    branches: HEAD
+ui:
+  bundle:
+    url: ./ui/ui_bundle.zip
+    snapshot: true

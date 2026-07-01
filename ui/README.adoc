@@ -1,0 +1,13 @@
+= My portfolio UI
+
+This is a custom antora UI that i made for my portfolio.
+
+This project does not fork the default antora UI because i thought that the
+default UI had too much tooling for my liking, and i felt the need for a more
+lightweight approach. (i might reuse some helpers and more)
+
+Essentially, this is more close to what the Antora Default UI documentation
+describes as a "UI Bundle", opposed to a "UI Project".
+
+At some point, i'd like to add resources minifcation (HTML, CSS & JS).
+

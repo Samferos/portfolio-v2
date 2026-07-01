@@ -1,0 +1,8 @@
+name: portfolio
+version: ~
+title: samuel's portfolio
+nav:
+- modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    figure-caption: ~
