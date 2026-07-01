@@ -1,5 +1,6 @@
 site:
   title: samuel's portfolio
+  url: https://samferos.github.io/portfolio-v2
   start_page: portfolio::index.adoc
 content:
   sources:
